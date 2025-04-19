@@ -1,0 +1,65 @@
+* {
+  border: none;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+window#waybar {
+  background-color: rgba(30, 30, 30, 0.1); /* gris oscuro transparente */
+  border-radius: 0px;
+  padding: 0px 5px;
+}
+
+/* Centro (hora) */
+#clock {
+  background-color: rgba(70, 70, 70, 0.5);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 4px 6px;
+}
+
+/* Reloj de fecha separado (a la derecha) */
+#clock#date {
+  background-color: rgba(70, 70, 70, 0.5);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 4px 6px;
+}
+
+/* Módulos de la derecha */
+#battery, #cpu, #memory, #network {
+  background-color: rgba(70, 70, 70, 0.5);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 4px 6px;
+}
+
+/*WORKSPACES TRACKER*/
+#workspaces {
+  margin: 4px 6px;
+}
+
+#workspaces button {
+  padding: 6px 10px;
+  margin: 0 4px;
+  border-radius: 12px;
+  background-color: rgba(70, 70, 70, 0.5);
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+  background-color: #679436;
+  color: #ffffff;
+}
+
+#workspaces button.urgent {
+  background-color: #e06c75;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  background-color: #98c379;
+  color: #000000;
+}

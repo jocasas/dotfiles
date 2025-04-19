@@ -1,0 +1,40 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock","clock#date"],
+  "modules-right": ["battery", "cpu", "memory", "network"],
+
+  "clock": {
+    "format": "{:%H:%M:%S}",
+    "tooltip": false
+  },
+
+  "clock#date": {
+    "interval": 60,
+    "format": "{:%A %d %B %Y}",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "{capacity}% ",
+    "tooltip": false
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G",
+    "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": " {signalStrength}%",
+    "format-ethernet": "",
+    "tooltip": false
+  }
+}
+

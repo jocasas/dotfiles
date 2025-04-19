@@ -1,0 +1,11 @@
+gtk-4.0
+gtk-3.0
+autostart
+EOS-greeter.conf
+pavucontrol.ini
+pulse
+user-dirs.dirs
+user-dirs.locale
+xfce4
+dconf
+
