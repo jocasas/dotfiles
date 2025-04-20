@@ -1,0 +1,13 @@
+# ~/.config/wofi/config
+
+show = drun
+prompt = " "
+width = 500
+height = 300
+columns = 1
+allow_images = true
+hide_scroll = true
+insensitive = true
+term = foot
+location = center
+always_parse_args = true
