@@ -1,0 +1,40 @@
+2025-04-19 20:58:03.218 [info] [main] Log level: Info
+2025-04-19 20:58:03.218 [info] [main] Validating found git in: "git"
+2025-04-19 20:58:03.218 [info] [main] Using git "2.49.0" from "git"
+2025-04-19 20:58:03.218 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 20:58:03.218 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-19 20:58:03.218 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-19 20:58:03.218 [info] [Model][openRepository] Opened repository (path): /home/jocascript/Github/galileo
+2025-04-19 20:58:03.218 [info] [Model][openRepository] Opened repository (real path): /home/jocascript/Github/galileo
+2025-04-19 20:58:03.251 [info] > git rev-parse --show-toplevel [22ms]
+2025-04-19 20:58:03.252 [info] > git config --get commit.template [28ms]
+2025-04-19 20:58:03.272 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-19 20:58:03.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-04-19 20:58:03.281 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jocascript/Github/galileo/.git/refs/remotes/origin/master'
+2025-04-19 20:58:03.281 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-19 20:58:03.284 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 20:58:03.285 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-04-19 20:58:03.297 [info] > git status -z -uall [7ms]
+2025-04-19 20:58:03.326 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2025-04-19 20:58:03.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-04-19 20:58:03.390 [info] > git config --get commit.template [10ms]
+2025-04-19 20:58:03.393 [info] > git config --get --local branch.master.vscode-merge-base [5ms]
+2025-04-19 20:58:03.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-19 20:58:03.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [14ms]
+2025-04-19 20:58:03.426 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jocascript/Github/galileo/.git/refs/remotes/origin/master'
+2025-04-19 20:58:03.427 [info] > git merge-base refs/heads/master refs/remotes/origin/master [7ms]
+2025-04-19 20:58:03.434 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2025-04-19 20:58:03.448 [info] > git status -z -uall [7ms]
+2025-04-19 20:58:03.449 [info] > git diff --name-status -z --diff-filter=ADMR f3c9ff46cfcab2dfdaafeb30e804f31536cd1e70...refs/remotes/origin/master [15ms]
+2025-04-19 20:58:03.450 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-19 20:58:04.530 [info] > git check-ignore -v -z --stdin [748ms]
+2025-04-19 20:58:06.347 [info] > git config --get commit.template [2ms]
+2025-04-19 20:58:06.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-04-19 20:58:06.369 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jocascript/Github/galileo/.git/refs/remotes/origin/master'
+2025-04-19 20:58:06.371 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-04-19 20:58:06.394 [info] > git status -z -uall [11ms]
+2025-04-19 20:58:06.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-19 20:58:07.002 [info] > git ls-files --stage -- src/app/core.rs [2ms]
+2025-04-19 20:58:07.019 [info] > git show --textconv :src/app/core.rs [35ms]
+2025-04-19 20:58:07.020 [info] > git cat-file -s 54aa947f472e0e636a9c27d2ff0c7b7702ff6e5c [11ms]
+2025-04-19 20:58:07.132 [info] > git blame --root --incremental f3c9ff46cfcab2dfdaafeb30e804f31536cd1e70 -- src/app/core.rs [1ms]
