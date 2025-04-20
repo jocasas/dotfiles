@@ -1,3 +1,0 @@
-2025-04-19 20:58:05.406 [info] GitLens (pre-release) v2025.4.1815 activating in Visual Studio Code - Insiders (1.100.0-insider) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (23b1d1d3f41f8cbbb623351dc614cedaef837ac85d09d3a11f04a3297ba53ce5|25a6d18e-7c26-4039-a7c9-ce6b4540edeb1745110681372)
-To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-

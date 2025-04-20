@@ -1,5 +1,0 @@
-2025-04-19 19:33:04.519 [info] GitLens (pre-release) v2025.4.1815 activating in Visual Studio Code - Insiders (1.100.0-insider) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (23b1d1d3f41f8cbbb623351dc614cedaef837ac85d09d3a11f04a3297ba53ce5|efb5f38c-3d85-4f01-b1fc-d44d02b47a2a1745105358440)
-To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-[2025-04-19 23:33:04.411] os.e
-EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/jocascript/.local/share/gk/repoMapping.json'
-
